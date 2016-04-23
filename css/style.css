@@ -256,13 +256,13 @@ a.icons-nav:hover{
 }
 
 .sec2-text p{
-   font-size:25px;
+   font-size:23px;
 }
 /*.sec2-text p:before{
   right: 1.5em;
 }*/
 .italic-sentence{
-   font-size:20px;
+   font-size:15px;
 }
 .apt-text{
   font-size: 10px; 
@@ -389,14 +389,17 @@ a.icons-nav:hover{
 
 
 .section3{
-
+  font-size:7px;
    height:32.25em;
     /*height:516px;*/
     width:100%;
     position:relative;
 }
 
+  
   .sec3-text p{
+    height:100%;
+    font-size:20px;
     text-align: left;
     line-height:1.125em;
     padding: 1em 1.8em;
@@ -675,7 +678,7 @@ p.italic-sentence.baskerville-text.gray-container {
     height: 0;
     left: 0;
     position: absolute;
-    top: -20px;
+    top: -19px;
     width: 0;
 }
 
@@ -738,6 +741,24 @@ p.italic-sentence.baskerville-text.gray-container {
     width:calc(100% - 43em);
      height:100%;
   }
+  .sec3-text{
+      font-size:35px;
+    }
+
+  .sec3-text p {
+    font-size:22px;
+  }
+
+  /*Section4*/
+  .section4 {
+    font-size: 12px;
+}
+.right-side-section4{
+  font-size:10px;
+  padding-right:130px;
+  padding-left:130px;
+ }
+  
   /*Section 5*/
   .map-section {
       /* height: 747px; */
@@ -816,14 +837,21 @@ p.italic-sentence.baskerville-text.gray-container {
     }
 
   /*Section 4*/
+
+  .section4 {
+    font-size: 12px;
+}
    .right-side-section4{
-      font-size:12px;
+      font-size:10px;
+      padding-right:0;
+      padding-left:0;
    }
 
    p.baskerville-text.quicksand-style {
     
     padding-left: 50px;
 }
+
 
    /*Section5*/
 
@@ -836,8 +864,44 @@ p.italic-sentence.baskerville-text.gray-container {
     font-size:12px;
   }
  
+ /*Section 6*/
+ .contact-sec6 {
+    height: 300px;
+}
 
+.footer-icon{
+  height: 25px;
+  width: 25px;
+  margin-right:5px;
+}
 
+.logo-footer{
+    padding: 20px 0 30px;
+}
+/*Section7*/
+
+div#square {
+    top: -95px;
+    left: 168px;
+    right: 0;
+}
+
+.first-arrow-up{
+  position: absolute;
+    top: -10px;
+    color: white;
+    right: 5px;
+}
+.second-arrow-up{
+  position: absolute;
+    top: 0;
+    color: white;
+    right: 5px;
+}
+.icon-right {
+    padding-top: 16px;
+    padding-left: 60px;
+}
 
 }
 
@@ -902,6 +966,10 @@ p.italic-sentence.baskerville-text.gray-container {
   .section3{
     font-size:16px;
   }
+
+  .sec3-text p {
+    font-size:40px;
+  }
     
     
 .left-sect3{
@@ -941,6 +1009,8 @@ p.baskerville-text.quicksand-style {
   
  .right-side-section4{
   font-size:15px;
+  padding-right:0;
+  padding-left:0;
  }
   
 
