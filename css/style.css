@@ -2,6 +2,7 @@
 /*font-family: 'Libre Baskerville', serif;*/
 
 
+
 .carousel-caption,.icons-nav,.quicksand-style{
     font-family: 'Quicksand', sans-serif;
    
@@ -52,7 +53,7 @@
 }
 
 nav {
-    font-size: 6px;
+    font-size: 5px;
     /*width: 100%;*/
     background-color:#fff;
     border-right: none;
@@ -228,7 +229,39 @@ a.icons-nav:hover{
    
 }
 
+ .show-triangle{
+  font-size:10px;
+}
+
+
 /*section2*/
+ 
+ .logo {
+   
+    padding: 2em 0;
+}
+
+/*Section2*/
+
+.text-section {
+    font-size: 10px;
+}
+
+.sec2-text p{
+   font-size:25px;
+}
+/*.sec2-text p:before{
+  right: 1.5em;
+}*/
+.italic-sentence{
+   font-size:20px;
+}
+.apt-text{
+  font-size: 10px; 
+
+}
+
+
 .text-section{
     height:22.5em;
 }
@@ -253,7 +286,7 @@ a.icons-nav:hover{
   .italic-sentence:before{
   content : "";
   position: absolute;
-  left  :45%;
+  left  :2.5em;
   bottom:0;
   width   : 13%;  /* or 100px */
   border-bottom:2px solid rgb(233,169,47);
@@ -334,8 +367,8 @@ a.icons-nav:hover{
 }
 .left-sect3{
     float:left;
-    height:100%;
-    width:calc(100% - 43em);
+    height:50%;
+    width: 100%;
   }
 
   .right-sect3{
@@ -358,7 +391,7 @@ a.icons-nav:hover{
   .sec3-text p{
     text-align: left;
     line-height:1.125em;
-    padding: 1em 2.75em;
+    padding: 1em 1.8em;
     margin-left:auto;
     margin-right:auto;
     position: absolute;
@@ -388,9 +421,9 @@ a.icons-nav:hover{
   }
 
 
- .left-sect3 {
+ /*.left-sect3 {
     width: calc(100% - 40em);
-   }
+   }*/
 
 .men-image{
     width:100%;
@@ -402,6 +435,13 @@ a.icons-nav:hover{
      background-size: cover;
 
 
+}
+.right-position-text{
+  position:relative;
+  height:100%;
+}
+.left-men-height{
+  height:100%;
 }
 .right-sect3{
       height:100%;
@@ -519,12 +559,23 @@ a.icons-nav:hover{
    color: white;  
 }
   
- 
+ /*Section 4*/
+ p.baskerville-text.quicksand-style {
+    color: white;
+    
+}
   
 
 /*Section 5*/
 
+ 
+  .rectangle-map{
+  
+    font-size:12px;
+  }
+
  .map-section{
+  font-size: 14px;
   height:100%;
    /*height:46.6875em;*/
    background: url('../img/map.jpg') no-repeat center center; 
@@ -537,7 +588,7 @@ a.icons-nav:hover{
 
 .rectangle-map {
     position: absolute;
-    left: 10em;
+    /*left: 10em;*/
     margin-top: 26.25em;
     height: 15.625em;
     margin-bottom: 6em;
@@ -564,6 +615,7 @@ a.icons-nav:hover{
 p.italic-sentence.baskerville-text.gray-container {
     color:white;
     padding-left:2em;
+   
 }
 
 .text-sec5{
@@ -619,6 +671,12 @@ p.italic-sentence.baskerville-text.gray-container {
     width: 0;
 }
 
+/*Section 7*/
+.section7 p{
+  font-size:11px;
+  padding-left:3.6363em;
+  padding-top:1.8181em;
+}
 
 @media only screen and (min-width : 768px) {
   /*Section 1*/
@@ -660,6 +718,23 @@ p.italic-sentence.baskerville-text.gray-container {
   font-size: 10px; 
 
 }
+/*Section3*/
+.left-sect3{
+    
+    width:calc(100% - 43em);
+     height:100%;
+  }
+  /*Section 5*/
+  .map-section {
+      /* height: 747px; */
+      font-size: 14px;
+  }
+  .rectangle-map{
+  
+    font-size:14px;
+  }
+ 
+
 }
 
 @media only screen and (min-width : 992px) {
@@ -709,6 +784,13 @@ p.italic-sentence.baskerville-text.gray-container {
   margin-left:0;
 }
 
+.left-sect3{
+    
+    width:calc(100% - 43em);
+    height:100%;
+  }
+
+
   .sec3-text{
       font-size:35px;
     }
@@ -718,11 +800,20 @@ p.italic-sentence.baskerville-text.gray-container {
       font-size:12px;
    }
 
+   p.baskerville-text.quicksand-style {
+    
+    padding-left: 50px;
+}
+
    /*Section5*/
 
+  .map-section {
+      /* height: 747px; */
+      font-size: 14px;
+  }
   .rectangle-map{
   
-    font-size:16px;
+    font-size:12px;
   }
  
 
@@ -788,6 +879,11 @@ p.italic-sentence.baskerville-text.gray-container {
   }
     
     
+.left-sect3{
+    
+    width:calc(100% - 43em);
+    height:100%;
+  }
 
   .row.section3{
         
@@ -811,6 +907,11 @@ p.italic-sentence.baskerville-text.gray-container {
 
   .section4{
   font-size:16px;
+}
+
+p.baskerville-text.quicksand-style {
+    
+    padding-left: 70px;
 }
   
  .right-side-section4{
@@ -903,11 +1004,7 @@ select {
   width: 30px;
   margin-right:5px;
 }
-.section7 p{
-  font-size:11px;
-  padding-left:40px;
-  padding-top:20px;
-}
+
 .icon-right{
   padding-top:20px;
   padding-left: 60px;
