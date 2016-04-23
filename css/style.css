@@ -37,6 +37,9 @@
     height:5.4375em;
 
 }
+.show-menu{
+  display:none;
+}
 
 .first-arrow-down{
   position: absolute;
@@ -53,7 +56,7 @@
 }
 
 nav {
-    font-size: 5px;
+    font-size: 4px;
     /*width: 100%;*/
     background-color:#fff;
     border-right: none;
@@ -188,6 +191,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   width   : 10%;  /* or 100px */
   border-top:2px solid rgb(233,169,47);
   }
+
+.font-color{
+  
+  padding-left: 0;
+}
 
 
 .close {
@@ -690,6 +698,9 @@ p.italic-sentence.baskerville-text.gray-container {
   nav{
   font-size: 11px;
  }
+ .show-menu{
+  display:block;
+}
  .show-triangle{
   font-size:13px;
 }
@@ -749,6 +760,9 @@ p.italic-sentence.baskerville-text.gray-container {
   top:  45%;
   left: 10%;
 
+}
+.show-menu{
+  display:block;
 }
 .rect-menu{
   margin-left:-1em;
@@ -832,7 +846,9 @@ p.italic-sentence.baskerville-text.gray-container {
     top:  30%;
     left: 10%;
 }
- 
+ .show-menu{
+  display:block;
+}
 .carousel-caption{
   font-size:55px;
 }
