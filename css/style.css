@@ -1,6 +1,7 @@
 /*font-family: 'Quicksand', sans-serif;*/
 /*font-family: 'Libre Baskerville', serif;*/
 
+
 .carousel-caption,.icons-nav,.quicksand-style{
     font-family: 'Quicksand', sans-serif;
    
@@ -22,6 +23,9 @@
   z-index:1;
 }
 
+.show-triangle{
+  font-size:10px;
+}
  .section1{
     height: 100vh;
     
@@ -46,9 +50,10 @@
   right: 0.5625em;
   color: rgb(233,169,47);
 }
+
 nav {
-    
-    width: 100%;
+    font-size: 6px;
+    /*width: 100%;*/
     background-color:#fff;
     border-right: none;
     z-index:20;
@@ -90,7 +95,7 @@ nav ul li {
 .rect-menu{
   padding: 1.5625em 0;
   width: 3em;
-  margin-left: -1em;
+  margin-left: -2em;
 }
 
 .logo {
@@ -151,20 +156,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     margin-left:-73%;
 }
 
-.carousel-caption
-  {
-    top: 27%;
-    left:8%;
+.carousel-caption{
+  top:50%;
+  left:12%;
+}
 
-  }
-  .carousel-caption p{
-    width: 60%;
-    padding-top:30px;
-    padding-bottom:30px;
-    position:relative;
-   
+  .carousel-caption p {
+    width: 10em;
+    padding-top: 0.5454em;
+    padding-bottom: 0.5454em;
+    position: relative;
+}
 
-  }
 
   .carousel-caption p:before {
   content : "";
@@ -237,6 +240,7 @@ a.icons-nav:hover{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    color:whitenav;
   }
 
    .italic-sentence{
@@ -283,7 +287,7 @@ a.icons-nav:hover{
  .sec2-text p:before {
   content : "";
   position: absolute;
-  right   : 2.8em;
+  right   : 2.5em;
   bottom  : 0;
   width   : 20%;  
   border-bottom:2px solid rgb(233,169,47);
@@ -521,7 +525,8 @@ a.icons-nav:hover{
 /*Section 5*/
 
  .map-section{
-   height:;
+  height:100%;
+   /*height:46.6875em;*/
    background: url('../img/map.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -530,13 +535,13 @@ a.icons-nav:hover{
 }
 
 
-.rectangle-map{
-    position:absolute;
-    left:12%;
-    margin-top: 420px;
-    height:250px;
-    position:relative;
-
+.rectangle-map {
+    position: absolute;
+    left: 10em;
+    margin-top: 26.25em;
+    height: 15.625em;
+    margin-bottom: 6em;
+    position: relative;
 }
 .yellow-rectangle{
     background-color:rgb(233,169,47);
@@ -558,11 +563,14 @@ a.icons-nav:hover{
 }
 p.italic-sentence.baskerville-text.gray-container {
     color:white;
-    padding-left:50px;
+    padding-left:2em;
 }
 
 .text-sec5{
     color:white;
+}
+.text-sec5{
+  margin-left:0.8em;
 }
 
 /*Section 6*/
@@ -613,7 +621,45 @@ p.italic-sentence.baskerville-text.gray-container {
 
 
 @media only screen and (min-width : 768px) {
+  /*Section 1*/
+  .carousel-caption {
+    font-size: 45px;
+    top:  50%;
+    left: 10%;
 
+  }
+
+  nav{
+  font-size: 11px;
+ }
+ .show-triangle{
+  font-size:13px;
+}
+
+ .logo {
+   
+    padding: 2em 0;
+}
+
+/*Section2*/
+
+.text-section {
+    font-size: 10px;
+}
+
+.sec2-text p{
+   font-size:25px;
+}
+/*.sec2-text p:before{
+  right: 1.5em;
+}*/
+.italic-sentence{
+   font-size:20px;
+}
+.apt-text{
+  font-size: 10px; 
+
+}
 }
 
 @media only screen and (min-width : 992px) {
@@ -622,8 +668,19 @@ p.italic-sentence.baskerville-text.gray-container {
   font-size: 14px;
  }
 
+
  .carousel-caption{
-  font-size:45px;
+  font-size:50px;
+  top:  45%;
+  left: 10%;
+
+}
+.rect-menu{
+  margin-left:-1em;
+}
+
+.show-triangle{
+  font-size:15px;
 }
 
  .close{
@@ -663,8 +720,9 @@ p.italic-sentence.baskerville-text.gray-container {
 
    /*Section5*/
 
-  .map-section{
-    height:550px;
+  .rectangle-map{
+  
+    font-size:16px;
   }
  
 
@@ -678,11 +736,18 @@ p.italic-sentence.baskerville-text.gray-container {
  nav{
   font-size: 16px;
 }
+
+.carousel-caption {
+    top:  30%;
+    left: 10%;
+}
  
 .carousel-caption{
   font-size:55px;
 }
-
+.show-triangle{
+  font-size:15px;
+}
 .close{
   font-size:16px;
 }
