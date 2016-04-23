@@ -193,7 +193,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   }
 
 .font-color{
-  
+
   padding-left: 0;
 }
 
@@ -694,6 +694,9 @@ p.italic-sentence.baskerville-text.gray-container {
     left: 10%;
 
   }
+  .font-color{
+  padding-left:15px;
+}
 
   nav{
   font-size: 11px;
@@ -770,6 +773,9 @@ p.italic-sentence.baskerville-text.gray-container {
 
 .show-triangle{
   font-size:15px;
+}
+.font-color{
+  padding-left:15px;
 }
 
  .close{
@@ -854,6 +860,9 @@ p.italic-sentence.baskerville-text.gray-container {
 }
 .show-triangle{
   font-size:15px;
+}
+.font-color{
+  padding-left:15px;
 }
 .close{
   font-size:16px;
