@@ -310,7 +310,7 @@ a.icons-nav:hover{
   .italic-sentence:before{
   content : "";
   position: absolute;
-  left  :2.5em;
+  left  :8.5em;
   bottom:0;
   width   : 13%;  /* or 100px */
   border-bottom:2px solid rgb(233,169,47);
@@ -661,9 +661,9 @@ p.italic-sentence.baskerville-text.gray-container {
   margin-left:0.8em;
 }
 
-.italic-sentence {
+/*.italic-sentence {
     font-size: 10px;
-}
+}*/
 
 /*Section 6*/
 
@@ -851,6 +851,15 @@ div#square {
 .italic-sentence{
    font-size:20px;
 }
+
+.italic-sentence:before{
+  content : "";
+  position: absolute;
+  left  :10.5em;
+  bottom:0;
+  width   : 13%;  /* or 100px */
+  border-bottom:2px solid rgb(233,169,47);
+  }
 .apt-text{
   font-size: 10px; 
 
@@ -1193,6 +1202,14 @@ p.baskerville-text.quicksand-style {
    font-size: 35px;
 }
  
+ .italic-sentence:before{
+  content : "";
+  position: absolute;
+  left  :9em;
+  bottom:0;
+  width   : 13%;  /* or 100px */
+  border-bottom:2px solid rgb(233,169,47);
+  }
 
   
 
