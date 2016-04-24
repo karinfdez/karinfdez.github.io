@@ -1768,7 +1768,7 @@ a.icons-nav:hover{
   right: 1.5em;
 }
 .italic-sentence{
-   font-size:15px;
+   font-size:10px;
 }
 .apt-text{
   font-size: 10px; 
@@ -2021,6 +2021,12 @@ a.icons-nav:hover{
     top: 50%;
     transform: translateY(-50%);
 }
+
+span.sec-4{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 /*.text-sec4 p{
    padding: 1em 0;
     text-align: center;
@@ -2090,7 +2096,7 @@ a.icons-nav:hover{
   .left-side-section4{
     position:relative;
     height:100%;
-    padding:0;
+   
   }
 
   /* .text-sec4 p{
@@ -2187,14 +2193,13 @@ a.icons-nav:hover{
 
 .rectangle-map {
     position: absolute;
-     font-size:13px;
-    /*left: 10em;*/
-    margin-top: 8em;
-    /*margin-top: 26.25em;*/
+    font-size: 15px;
+    margin-top: 5em;
     height: 15.625em;
     margin-bottom: 6em;
     
 }
+
 .yellow-rectangle{
     background-color:rgb(233,169,47);
     height:70%;
@@ -2426,6 +2431,7 @@ div#square {
 }*/
 .italic-sentence{
    font-size:20px;
+   padding-left: 2em !important;
 }
 
 /*.italic-sentence:before{
@@ -2818,11 +2824,12 @@ p.baskerville-text.quicksand-style {
 
 .sec4-text span{
     text-align:center;
+    font-size:40px;
 }
 
 
 .italic-sentence{
-   font-size: 35px;
+   font-size: 30px;
 }
  
  /*.italic-sentence:before{
