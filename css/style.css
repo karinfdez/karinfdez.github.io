@@ -108,7 +108,7 @@ nav ul li {
 }
 
 .logo {
-    width: 75%;
+    width: 100%;
     padding: 1.25em 0;
 }
 
@@ -785,7 +785,8 @@ div#square {
 }
 
  .logo {
-   
+  
+    width: 75%;
     padding: 2em 0;
 }
 .hide-phone{
@@ -945,7 +946,9 @@ div#square {
 .hide-phone{
   display:block;
 }
-
+.logo{
+ width: 75%;
+}
 /*Section2*/
 
 .text-section{
@@ -1093,6 +1096,9 @@ p.baskerville-text.quicksand-style {
 }
 .hide-phone{
   display:block;
+}
+.logo{
+ width: 75%;
 }
 
 
