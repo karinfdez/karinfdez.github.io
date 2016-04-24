@@ -1761,10 +1761,10 @@ a.icons-nav:hover{
   height:100%;
 }
 
-.sec2-text p{
+.sec2-text span{
    font-size:23px;
 }
-.sec2-text p:before{
+.sec2-text span:before{
   right: 1.5em;
 }
 .italic-sentence{
@@ -1779,7 +1779,7 @@ a.icons-nav:hover{
 .text-section{
     height:22.5em;
 }
-.sec2-text p{
+.sec2-text span{
     color:rgb(59,59,59);
 }
 
@@ -1823,7 +1823,7 @@ a.icons-nav:hover{
 
 }
 .title {
-  font-size:35px;
+  font-size:30px;
 }
 
 .sec2-text span{
@@ -1911,38 +1911,59 @@ a.icons-nav:hover{
 
 .sec3-text{
   height:100%;
-  font-size:25px;
+  font-size:20px;
 }
-.sec3-text p{
-   padding: 1em 1.2em;
-   padding-left:auto;
-   padding-right:auto;
+.sec3-text span{
+   padding: 1em 2em;
+   /*padding-left:auto;
+   padding-right:auto;*/
     text-align: left;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
   }
 
- .sec3-text p:before {
+  .border-line-2 {
+  text-align:center;
+  display:inline-block;
+}
+.border-line-2:before, .border-line-2:after {
+  content:"";
+  display:block;
+  margin-left:0;
+  margin-top:20px;
+  margin-bottom:20px;
+  width:35%;
+  border-bottom:2px solid rgb(233,169,47);
+}
+.border-line-2:after {
+  margin-left:60%;
+}
+
+
+
+
+
+ /*.sec3-text p:before {
   content : "";
   position: absolute;
   right  : 1.5em;
   bottom  : 0;
   /*height  : 1px;*/
-  width   : 20%;  /* or 100px */
+  /*width   : 20%;  
   border-bottom:2px solid rgb(233,169,47);
  
   
-  }
+  }*/
 
-  .sec3-text p:before{
+  /*.sec3-text p:before{
   content : "";
   position: absolute;
   top:0;
   left  : 1.6em;
   width   : 20%;  
   border-top:2px solid rgb(233,169,47);
-  }
+  }*/
 
 
  /*.left-sect3 {
@@ -1978,9 +1999,14 @@ a.icons-nav:hover{
 
 /*Section4*/
 
+.right-sec4{
+  height:100%;
+  background-color:rgb(233,169,47);
+}
 .section4{
   height:28.125em;
   font-size:8px;
+  color:white;
 }
 .text-sec4{
   position:relative;
@@ -2003,7 +2029,7 @@ a.icons-nav:hover{
     transform: translateY(-50%);
    }*/
 
-.text-sec4 p:before {
+/*.text-sec4 p:before {
   content : "";
   position: absolute;
   right   : 1em;
@@ -2020,11 +2046,26 @@ a.icons-nav:hover{
   top: 5.0em;
   left  : 3em;
   width   : 28%;  /* or 100px */
-  border-top:2px solid rgb(233,169,47);
-  }
+  /*border-top:2px solid rgb(233,169,47);*/
+  /*}*/
 
 
-
+ .border-line-3 {
+  text-align:center;
+  display:inline-block;
+}
+.border-line-3:before, .border-line-3:after {
+  content:"";
+  display:block;
+  margin-left:10%;
+  margin-top:20px;
+  margin-bottom:20px;
+  width:20%;
+  border-bottom:2px solid rgb(233,169,47);
+}
+.border-line-3:after {
+  margin-left:75%;
+}
 
   .girl-image-container{
     height:100%;
@@ -2037,7 +2078,7 @@ a.icons-nav:hover{
   }
 
   select,.form-text.right-padding-names {
-  -webkit-appearance: none;
+  /*-webkit-appearance: none;*/
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   -o-border-radius: 0px;
@@ -2049,6 +2090,7 @@ a.icons-nav:hover{
   .left-side-section4{
     position:relative;
     height:100%;
+    padding:0;
   }
 
   /* .text-sec4 p{
@@ -2376,7 +2418,7 @@ div#square {
     font-size: 10px;
 }
 
-.sec2-text p{
+.sec2-text span{
    font-size:25px;
 }
 /*.sec2-text p:before{
@@ -2408,7 +2450,7 @@ div#square {
       font-size:35px;
     }
 
-  .sec3-text p {
+  .sec3-text span {
     font-size:20px;
   }
   /*.sec3-text:before{
@@ -2571,9 +2613,10 @@ div#square {
     font-size:12px;
 }
 
-.sec2-text p{
+.sec2-text span{
    font-size:30px;
 }
+
 .italic-sentence{
    font-size:25px;
 }
@@ -2597,7 +2640,7 @@ div#square {
   .sec3-text{
       font-size:35px;
     }
-    .sec3-text p {
+    .sec3-text span {
     font-size: 30px;
 }
 /*
@@ -2769,8 +2812,12 @@ p.baskerville-text.quicksand-style {
     font-size:16px;
 }
 
-.sec2-text p{
+.sec2-text span{
    font-size:40px;
+}
+
+.sec4-text span{
+    text-align:center;
 }
 
 
@@ -2806,19 +2853,19 @@ p.baskerville-text.quicksand-style {
     font-size:16px;
   }
 
-  .sec3-text p {
+  .sec3-text span {
     font-size:40px;
   }
 
-  /* .sec3-text:before{
-  content : "";
-  position: absolute;
-  top:1.2em;
-  left  : 1.6em;
-  width   : 20%;  
-  border-top:2px solid rgb(233,169,47);
-  }
-    */
+  /*.sec3-text:before, .sec3-text:after {
+    content: "";
+    display: block;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    border-bottom: 2px solid rgb(233,169,47);
+}*/
     
 .left-sect3{
     
