@@ -57,7 +57,7 @@
 }
 
 nav {
-    font-size: 4px;
+    font-size: 8px;
     /*width: 100%;*/
     background-color:#fff;
     border-right: none;
@@ -87,6 +87,10 @@ nav ul li {
     padding-bottom:2.1875em;
 }
 
+.hide-phone{
+  display:none;
+}
+
 .rectangle{
    background-color: rgb(59,59,59); 
    z-index:100;
@@ -100,7 +104,7 @@ nav ul li {
 .rect-menu{
   padding: 1.5625em 0;
   width: 3em;
-  margin-left: -2em;
+  margin-left: 0;
 }
 
 .logo {
@@ -742,6 +746,15 @@ div#square {
 }
 @media only screen and (min-width : 768px) {
   /*Section 1*/
+
+  .section1 {
+    height: 500px;
+}
+  #carousel {
+    position: relative;
+    height: 100%;
+    /* margin-top: 5.4375em; */
+}
   .carousel-caption {
     font-size: 45px;
     top:  50%;
@@ -774,6 +787,9 @@ div#square {
  .logo {
    
     padding: 2em 0;
+}
+.hide-phone{
+  display:block;
 }
 
 /*Section2*/
@@ -854,15 +870,21 @@ height:100%;
 .logo-footer{
     padding: 20px 0 30px;
 }
+.button-sec6{
+    height:40px;
+    font-size:18px;
+}
 
 /*Section 7*/
 .icon-right {
     padding-top: 16px;
     padding-left: 60px;
+    text-align: center;
+
 }
 div#square {
-    top: -95px;
-    left: 227px;
+    top: -105px;
+    left: 287px;
     right: 0;
 }
 
@@ -888,6 +910,13 @@ div#square {
   font-size: 14px;
  }
 
+ .section1 {
+    height: 100vh !important;
+}
+.carousel-inner>.item>img{
+  height:100vh;
+}
+
 
  .carousel-caption{
   font-size:50px;
@@ -911,6 +940,10 @@ div#square {
 
  .close{
   font-size:16px;
+}
+
+.hide-phone{
+  display:block;
 }
 
 /*Section2*/
@@ -995,6 +1028,10 @@ div#square {
 .logo-footer{
     padding: 20px 0 30px;
 }
+.button-sec6{
+    height:40px;
+    font-size:18px;
+}
 /*Section7*/
 
 div#square {
@@ -1018,6 +1055,7 @@ div#square {
 .icon-right {
     padding-top: 16px;
     padding-left: 60px;
+     text-align: left;
 }
 
 p.baskerville-text.quicksand-style {
@@ -1053,6 +1091,10 @@ p.baskerville-text.quicksand-style {
 .close{
   font-size:16px;
 }
+.hide-phone{
+  display:block;
+}
+
 
 /*Section 2*/
 
@@ -1241,6 +1283,7 @@ p.italic-sentence.baskerville-text.gray-container {
 .icon-right{
   padding-top:20px;
   padding-left: 60px;
+   text-align: center;
 
 }
 
