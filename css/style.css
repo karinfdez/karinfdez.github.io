@@ -608,6 +608,8 @@ a.icons-nav:hover{
 }
 
 
+
+
 .rectangle-map {
     position: absolute;
      font-size:13px;
@@ -616,7 +618,7 @@ a.icons-nav:hover{
     /*margin-top: 26.25em;*/
     height: 15.625em;
     margin-bottom: 6em;
-    position: relative;
+    
 }
 .yellow-rectangle{
     background-color:rgb(233,169,47);
