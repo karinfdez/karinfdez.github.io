@@ -120,7 +120,8 @@ nav ul li {
 #carousel{
     position:relative;
     height:100%;
-    /*margin-top:5.4375em;*/
+    margin-top: 5.4375em;
+    
 }
 
 .carousel-inner{
@@ -136,7 +137,9 @@ nav ul li {
 
 .fa.fa-angle-right.fa-5x.glyphicon-chevron-right,
 .fa.fa-angle-left.fa-5x.glyphicon-chevron-left{
-    font-size:5em;
+    font-size:2.5em;
+    margin-right:0;
+    margin-left:0;
 }
 
 
@@ -166,12 +169,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 
 .carousel-indicators {
-    margin-left:-73%;
+    /*margin-left:5%;*/
 }
 
 .carousel-caption{
-  top:50%;
+  top:30%;
   left:12%;
+  font-size:14px;
 }
 
   .carousel-caption p {
@@ -179,6 +183,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     padding-top: 0.5454em;
     padding-bottom: 0.5454em;
     position: relative;
+
 }
 
 
@@ -436,7 +441,7 @@ a.icons-nav:hover{
  .sec3-text p:before {
   content : "";
   position: absolute;
-  right   : 2em;
+  right  : 1.5em;
   bottom  : 0;
   /*height  : 1px;*/
   width   : 20%;  /* or 100px */
@@ -445,10 +450,10 @@ a.icons-nav:hover{
   
   }
 
-  .sec3-text:before{
+  .sec3-text p:before{
   content : "";
   position: absolute;
-  top:1.3em;
+  top:0;
   left  : 1.6em;
   width   : 20%;  
   border-top:2px solid rgb(233,169,47);
@@ -613,7 +618,7 @@ a.icons-nav:hover{
   
   
   p.baskerville-text.quicksand-style {
-    padding-left: 40px;
+    padding-left: 15px;
      color: white;
      font-size:9px;
 }
@@ -776,7 +781,7 @@ div#square {
   #carousel {
     position: relative;
     height: 100%;
-    /* margin-top: 5.4375em; */
+     margin-top:0; 
 }
   .carousel-caption {
     font-size: 37px;
@@ -784,6 +789,10 @@ div#square {
     left: 10%;
 
   }
+
+  .carousel-indicators {
+    margin-left:-73%;
+}
 
 
   .rect-menu{
@@ -794,6 +803,10 @@ div#square {
     margin-top: 13.75em;
    
 
+}
+.fa.fa-angle-right.fa-5x.glyphicon-chevron-right,
+.fa.fa-angle-left.fa-5x.glyphicon-chevron-left{
+    font-size:5em;
 }
 
   .font-color{
@@ -894,6 +907,14 @@ div#square {
   .sec3-text p {
     font-size:20px;
   }
+  /*.sec3-text:before{
+  content : "";
+  position: absolute;
+  top:2.2em;
+  left  : 1.2em;
+  width   : 20%;  
+  border-top:2px solid rgb(233,169,47);
+  }*/
 
   /*Section4*/
   .section4 {
@@ -978,6 +999,11 @@ div#square {
 
 #carousel{
   height:100vh;
+  margin-top:100px;
+
+}
+.carousel-indicators {
+    bottom: 120px;
 }
 
  .carousel-caption{
@@ -1019,7 +1045,7 @@ div#square {
 }
 .right-triangle {
   position:absolute;
-  bottom:0;
+  bottom:100px;
   right:0;
   width: 0;
   height: 0;
@@ -1067,6 +1093,15 @@ div#square {
     .sec3-text p {
     font-size: 30px;
 }
+/*
+  .sec3-text:before{
+  content : "";
+  position: absolute;
+  top:1.8em;
+  left  : 1.2em;
+  width   : 20%;  
+  border-top:2px solid rgb(233,169,47);
+  }*/
 
   /*Section 4*/
 
@@ -1165,6 +1200,7 @@ p.baskerville-text.quicksand-style {
 }
 #carousel{
   height:100vh;
+  margin-top:0;
 }
 
 .carousel-caption {
@@ -1176,6 +1212,10 @@ p.baskerville-text.quicksand-style {
 }
 .carousel-caption{
   font-size:55px;
+}
+
+.carousel-indicators {
+    bottom: 50px;
 }
 .show-triangle{
   font-size:15px;
@@ -1260,7 +1300,16 @@ p.baskerville-text.quicksand-style {
   .sec3-text p {
     font-size:40px;
   }
-    
+
+  /* .sec3-text:before{
+  content : "";
+  position: absolute;
+  top:1.2em;
+  left  : 1.6em;
+  width   : 20%;  
+  border-top:2px solid rgb(233,169,47);
+  }
+    */
     
 .left-sect3{
     
@@ -1294,7 +1343,7 @@ p.baskerville-text.quicksand-style {
 
 p.baskerville-text.quicksand-style {
     
-    padding-left: 70px;
+    padding-left: 50px;
     font-size:16px;
 }
   
@@ -1377,7 +1426,7 @@ height:100%;
 }
 p.italic-sentence.baskerville-text.gray-container {
     color:white;
-    padding-left:2em;
+    padding-left:1.5em;
    
 }
 
