@@ -1823,7 +1823,7 @@ a.icons-nav:hover{
 
 }
 .title {
-  font-size:30px;
+  font-size:35px;
 }
 
 .sec2-text span{
@@ -1911,7 +1911,7 @@ a.icons-nav:hover{
 
 .sec3-text{
   height:100%;
-  font-size:20px;
+  font-size:25px;
 }
 .sec3-text p{
    padding: 1em 1.2em;
@@ -1963,9 +1963,14 @@ a.icons-nav:hover{
 .right-position-text{
   position:relative;
   height:100%;
+  padding-right:0;
+  padding-left:0;
+  background-color:white;
 }
 .left-men-height{
   height:100%;
+  padding-right:0;
+  padding-left:0;
 }
 .right-sect3{
       height:100%;
@@ -2579,12 +2584,12 @@ div#square {
 /*Section 3*/
   .section3{
   font-size:14px;
-  margin-left:0;
+  /*margin-left:0;*/
 }
 
 .left-sect3{
     
-    width:calc(100% - 43em);
+    /*width:calc(100% - 43em);*/
     height:100%;
   }
 
