@@ -545,6 +545,12 @@ a.icons-nav:hover{
      background-size: cover;
   }
 
+  select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+
   .left-side-section4{
     position:relative;
     height:100%;
@@ -1383,10 +1389,6 @@ p.baskerville-text.quicksand-style {
   
  
 
-select {
-  -webkit-appearance: none;
-  -webkit-border-radius: 0px;
-}
 
 .yellow-rectangle{
   height:100%;
