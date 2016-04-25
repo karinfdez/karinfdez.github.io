@@ -2253,9 +2253,10 @@ p.italic-sentence.baskerville-text.gray-container {
 
 /*Section 7*/
 .section7{
-  height:100vh;
+  height:8em;
   background-color:#fff;
   color: rgb(55,55,63);
+  position:relative;
 }
 
 
@@ -2316,9 +2317,9 @@ p.italic-sentence.baskerville-text.gray-container {
 }
 
 div#square {
-    top: -170px;
-    left: 210px;
-    right: 0;
+    
+  position: absolute;
+  top: -70px;
 }
 @media only screen and (min-width : 768px) {
   /*Section 1*/
@@ -2530,9 +2531,8 @@ height:100%;
 
 }
 div#square {
-    top: -105px;
-    left: 287px;
-    right: 0;
+  position: absolute;
+  top: -70px;
 }
 
 
@@ -2718,9 +2718,8 @@ div#square {
 /*Section7*/
 
 div#square {
-    top: -95px;
-    left: 168px;
-    right: 0;
+  position: absolute;
+  top: -70px;
 }
 
 .first-arrow-up{
@@ -3022,9 +3021,8 @@ p.italic-sentence.baskerville-text.gray-container {
 }
 
 div#square {
-    top: -95px;
-    left: 236px;
-    right: 0;
+  position: absolute;
+  top: -70px;
 }
 
 .first-arrow-up{
