@@ -15,6 +15,7 @@ nav {
     border-right: none;
     z-index:20;
     position:fixed;
+    width:100%;
 }
 
 .carousel-caption,.icons-nav,.quicksand-style{
@@ -1363,7 +1364,11 @@ height:100%;
   }
   .rectangle-map {
     font-size: 16px;
-     margin-top:26.25em;
+     width:868px;
+     /*margin-top:26.25em;*/
+     max-width:858px;
+     left:50%;
+     margin: 26.25em 0 10em -424px;
   }
 
 
