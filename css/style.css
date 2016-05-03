@@ -348,7 +348,7 @@ a.icons-nav:hover{
 }
 
 .sec2-text span{
-    padding:1em 0;
+    padding:1em 1.2em;
     text-align:center;
     position: absolute;
     top: 50%;
@@ -486,6 +486,7 @@ a.icons-nav:hover{
   position:relative;
 }
 
+
 .text-sec4 p {
     /*padding: 1em 0;*/
 
@@ -508,16 +509,16 @@ span.sec-4{
   display:inline-block;
 }
 .border-line-3:before, .border-line-3:after {
-  content:"";
-  display:block;
-  margin-left:10%;
-  margin-top:20px;
-  margin-bottom:20px;
-  width:20%;
-  border-bottom:2px solid rgb(233,169,47);
+  content: "";
+    display: block;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 28%;
+    border-bottom: 2px solid rgb(233,169,47);
 }
 .border-line-3:after {
-  margin-left:75%;
+  margin-left:72%;
 }
 
   .girl-image-container{
@@ -635,9 +636,13 @@ span.sec-4{
 .rectangle-map {
     position: absolute;
     font-size: 15px;
-    margin-top: 5em;
+    /*margin-top: 5em;*/
     height: 15.625em;
-    margin-bottom: 6em;
+    /*margin-bottom: 6em;*/
+    width:220px;
+    max-width: 220px;
+    left:50%;
+    margin:5em 0 6em -110px;
     
 }
 
@@ -923,7 +928,10 @@ height:100%;
   .rectangle-map{
   
     font-size:12px;
-    margin-top:26.25em;
+    width:80%;
+    /*margin-top:26.25em;*/
+    max-width:100%;
+    margin: 26.25em 0 0 -40%;
   }
   p.baskerville-text.quicksand-style {
     padding-left: 40px;
