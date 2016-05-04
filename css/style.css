@@ -249,6 +249,7 @@ a.icons-nav{
     
     font-size:16px;
     color:white !important;
+    margin: 0 1em;
 
 }
 
@@ -256,6 +257,7 @@ a.icons-nav:hover{
     text-decoration: none;
     padding: 0.625em 1.875em;
     border: 1px solid #fff;
+
 
 }
 
@@ -1397,6 +1399,7 @@ p.italic-sentence.baskerville-text.gray-container {
 .button-sec6{
     height:40px;
     font-size:18px;
+    max-width: 180px;
 }
 .contact-text{
     font-size:25px;
